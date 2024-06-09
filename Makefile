@@ -6,7 +6,7 @@ PACKAGE_VERSION = 1.1.1
 
 THEOS_PACKAGE_SCHEME ?= rootless
 
-export SYSROOT = $(THEOS)/sdks/iPhoneOS15.5.sdk
+#export SYSROOT = $(THEOS)/sdks/iPhoneOS15.5.sdk
 
 include $(THEOS)/makefiles/common.mk
 

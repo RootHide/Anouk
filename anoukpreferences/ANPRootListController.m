@@ -4,9 +4,9 @@
 #import <rootless.h>
 #import <roothide.h>
 
-#define kAnoukPreferencesPath jbroot(ROOT_PATH_NS(@"/var/mobile/Library/Preferences/com.yan.anoukpreferences.plist"))
-#define kAnoukIconPath jbroot(ROOT_PATH_NS(@"/Library/PreferenceBundles/AnoukPreferences.bundle/anouk.png"))
-#define kPosixPath jbroot(ROOT_PATH_NS(@"/usr/bin/killall"))
+#define kAnoukPreferencesPath jbroot(@"/var/mobile/Library/Preferences/com.yan.anoukpreferences.plist")
+#define kAnoukIconPath jbroot(@"/Library/PreferenceBundles/AnoukPreferences.bundle/anouk.png")
+#define kPosixPath jbroot(@"/usr/bin/killall")
 
 static NSString *domain = @"com.yan.anoukpreferences";
 
